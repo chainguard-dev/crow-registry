@@ -1,0 +1,15 @@
+name = "crow-registry"
+main = "./src/index.ts"
+compatibility_date = "2022-07-26"
+
+account_id = "TODO"
+
+kv_namespaces = [
+  { binding = "TAGS",      id = "TODO", preview_id = "TODO" },
+  { binding = "MANIFESTS", id = "TODO", preview_id = "TODO" },
+]
+
+[[r2_buckets]]
+binding = 'BUCKET'
+bucket_name = 'TODO'
+preview_bucket_name = 'TODO'
